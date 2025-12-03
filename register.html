@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <fieldset>
+            <legend>ข้อมูลส่วนตัว</legend>
+            <label for="firstname">ชื่อจริง:</label>
+            <input type="text" id="firstname" name="firstname"/>
+            <label for="lastname">นามสกุล:</label>
+            <input type="text" id="lastname" name="lastname"/>
+            <br>
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email"/>
+            <label for="dob">วันเกิด:</label>
+            <input type="date" id="dob" name="dob"/>
+
+            <fieldset>
+            <legend>เพศ:</legend>
+                <label for="male">ชาย</label>
+                <input type="radio" id="male" name="male"/>
+                <label for="female">หญิง</label>
+                <input type="radio" id="female" name="female"/>
+                <label for="others">อื่น ๆ</label>
+                <input type="radio" id="others" name="others"/>
+            </fieldset>
+
+            <label for="country">ประเทศ:</label>
+            <select id="country" name="country">
+                <option value="select">---เลือกประเทศ---</option>
+            </select>
+
+            <fieldset>
+            <legend>ข้อมูลเพิ่มเติม:</legend>
+                <textarea id="more" name="more" placeholder="กรอกข้อมูลที่นี่" rows="5" cols="40"></textarea>
+            </fieldset>
+
+            <input type="checkbox" id="agree" name="agree"/>
+            <label for="agree">ยอมรับ</label>
+        </fieldset>
+        <button type="submit">ส่งข้อมูล</button>
+        <button type="reset">ยกเลิก</button>
+    </body>
+</html>
