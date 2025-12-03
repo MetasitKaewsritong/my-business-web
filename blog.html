@@ -6,14 +6,61 @@
         <title>My Tech Blog</title>
     </head>
     <body>
-    <!-- TODO: สร้าง header ที่มี -->
-    <!-- - ชื่อบล็อก "My Tech Blog" -->
-    <!-- - nav menu (หน้าแรก, บทความ, เกี่ยวกับเรา, ติดต่อ) -->
-    <!-- TODO: สร้าง main section ที่มี -->
-    <!-- - 3 article ต่างๆ เกี่ยวกับ HTML, CSS, JavaScript -->
-    <!-- - แต่ละ article มี h2, paragraph, และ "read more" link -->
-    <!-- TODO: สร้าง footer ที่มี -->
-    <!-- - copyright information -->
-    <!-- - quick links -->
+        <header>
+            <h1>My Tech Blog</h1>
+            <nav>
+            <ul>
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#articles">บทความ</a></li>
+                <li><a href="#about">เกี่ยวกับเรา</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="articles">
+                <article>
+                    <h2>Introduction to HTML</h2>
+                    <p>
+                        HTML (HyperText Markup Language) เป็นพื้นฐานของการพัฒนาเว็บไซต์
+                        มันใช้สําหรับสร้างโครงสร้างและเนื้อหาของหน้าเว็บ ด้วยการใช้ tags
+                        ต่าง ๆ เราสามารถระบุได้ว่าเนื้อหาชิ้นใดควรเป็นหัวเรื่อง ข้อความ
+                        หรือรูปภาพ
+                    </p>
+                    <a href="#read-more-html">Read More</a>
+                </article>
+                <article>
+                    <h2>Mastering CSS Styling</h2>
+                    <p>
+                        CSS (Cascading Style Sheets) ใช้สําหรับจัดแต่งเนื้อหาที่สร้างด้วย
+                        HTML ให้ดูสวยงาม มันช่วยให้เราสามารถกําหนดสีพื้นหลัง เลขอักษร ขนาด
+                        และตําแหน่งขององค์ประกอบต่าง ๆ ในหน้าเว็บ
+                    </p>
+                    <a href="#read-more-css">Read More</a>
+                </article>
+                <article>
+                    <h2>JavaScript Programming Basics</h2>
+                    <p>
+                        JavaScript เป็นภาษาการเขียนโปรแกรมที่ทําให้หน้าเว็บเป็นแบบ
+                        interactive มันช่วยให้เราสามารถจัดการกับปฏิสัมพันธ์ของผู้ใช้ เช่น
+                        การคลิก hover หรือการกรอกแบบฟอร์ม
+                    </p>
+                    <a href="#read-more-js">Read More</a>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#articles">บทความ</a></li>
+                    <li><a href="#about">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
