@@ -18,3 +18,10 @@ my-business-web
 ├── Pictures/
 │ └── ...
 └── README.md
+
+![index](Pictures/index.png)
+![about1](Pictures/about1.png)
+![about2](Pictures/about2.png)
+![services1](Pictures/services1.png)
+![services1](Pictures/services2.png)
+![contact_us](Pictures/contact_us.png)
