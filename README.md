@@ -19,9 +19,16 @@ my-business-web
 │ └── ...
 └── README.md
 
+[Home](index.html)
 ![index](Pictures/index.png)
+
+[About](about.html)
 ![about1](Pictures/about1.png)
 ![about2](Pictures/about2.png)
+
+[Services](services.html)
 ![services1](Pictures/services1.png)
-![services1](Pictures/services2.png)
+![services2](Pictures/services2.png)
+
+[Contact Us](contact_us.html)
 ![contact_us](Pictures/contact_us.png)
