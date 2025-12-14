@@ -9,6 +9,7 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -68,7 +69,7 @@ a {
 
 a:hover {
     color: #1a365d;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .container {
@@ -84,6 +85,7 @@ img {
 }
 
 .hero {
+    position: relative;
     height: 100vh;
     background-image: url('../Pictures/bug-repellent.webp');
     background-size: cover;
@@ -96,6 +98,17 @@ img {
     text-align: center;
     padding: 60px 20px;
     color: #fff;
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
 }
 
 .hero h1 {
@@ -145,6 +158,9 @@ img {
 }
 
 #header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color: #1a365d;
     color: #fff;
     padding: 15px 20px;
@@ -198,4 +214,49 @@ ul li:nth-child(odd) {
 
 ul li:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 50;
+    background-color: #2b6cb0;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    color: #fff;
+    background-color: #1a365d;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.chat-widget {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 50;
+    background-color: #38a169;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-widget:hover {
+    background-color: #2f855a;
+    transform: scale(1.1);
 }
