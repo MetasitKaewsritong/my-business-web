@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- ส่วน head แสดงผลภาษา ทำให้เว็บไซต์ responsive และแสดงชื่อบนแท็บ browser -->
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>NoBugs</title>
-    </head>
+<!-- ส่วน head แสดงผลภาษา ทำให้เว็บไซต์ responsive และแสดงชื่อบนแท็บ browser -->
 
-    <body>
-        <!-- ส่วน header มีโลโก้ ชื่อบริษัท และลิงก์นำทาง -->
-        <header>
-            <img src="Pictures/NoBugs.jpg" alt="NoBugs" style="width:100px; height:auto;">
-            <h1>NoBugs Co., Ltd.</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact_us.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoBugs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <main>
-            <!-- ส่วนนี้มี fieldset -->
-            <section>
-                <h2>Contact Us</h2>
-                    <fieldset>
-                        <label for="title">Title:</label>
-                        <input type="text" id="title" name="title" required/>
-                        <label for="firstname">First Name:</label>
-                        <input type="text" id="firstname" name="firstname" required/>
-                        <label for="firstname">Middle Name:</label>
-                        <input type="text" id="middlename" name="middlename" placeholder="If don't have one, leave blank"/>
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" id="lastname" name="lastname" required/>
-                        <br>
-                        <label for="email">email:</label>
-                        <input type="email" id="email" name="email" required/>
-                        <label for="dob">Date of Birth:</label>
-                        <input type="date" id="dob" name="dob" required/>
-                        <fieldset>
-                            <legend>Gender:</legend>
-                            <input type="radio" id="male" name="gender" value="male"/>
-                            <label for="male">Male</label>
-                            <input type="radio" id="female" name="gender" value="female">
-                            <label for="female">Female</label>
-                            <input type="radio" id="other" name="gender" value="other">
-                            <label for="other">Other</label>
-                            <input type="text" id="other-text" name="other-text" placeholder="Please specify">
-                        </fieldset>
-                        <fieldset>
-                            <legend>Text:</legend>
-                            <textarea id="more" name="more" placeholder="Write here" rows="5" cols="40" required></textarea>
-                        </fieldset>
-                        <input type="checkbox" id="agree" name="agree" required/>
-                        <label for="agree">Click here to agree to our term of service</label>
-                    </fieldset>
-                <button type="submit">Send</button>
-                <button type="reset">Cancel</button>
-            </section>
-            <!-- ส่วนนี้มีการฝัง Google Maps -->
-            <section>
-                <h2>Where Are We</h2>
-                <p>169 Long-Had Bangsaen Road, Saen Suk Sub-district, Mueang Chonburi District, Chonburi 20130</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.0320883554887!2d100.92300467508201!3d13.285935387059135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b4e7c351968b%3A0xf03d84bc0dd30c0!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lia4Li54Lij4Lie4Liy!5e0!3m2!1sth!2sth!4v1764993642394!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-        </main>
+<body>
+    <!-- ส่วน header มีโลโก้ ชื่อบริษัท และลิงก์นำทาง -->
+    <header>
+        <img src="Pictures/NoBugs.jpg" alt="NoBugs" style="width:100px; height:auto;">
+        <h1>NoBugs Co., Ltd.</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- ส่วน footer มี copyright notice -->
-        <footer style="text-align:center; padding:10px;">
-            <p>&copy; 2025 NoBugs. All rights reserved.</p>
-        </footer>
-    </body>
+    <main>
+        <!-- ส่วนนี้มี fieldset -->
+        <section>
+            <h2>Contact Us</h2>
+            <fieldset>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required />
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required />
+                <label for="firstname">Middle Name:</label>
+                <input type="text" id="middlename" name="middlename" placeholder="If don't have one, leave blank" />
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required />
+                <br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required />
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <input type="text" id="other-text" name="other-text" placeholder="Please specify">
+                </fieldset>
+                <fieldset>
+                    <legend>Text:</legend>
+                    <textarea id="more" name="more" placeholder="Write here" rows="5" cols="40" required></textarea>
+                </fieldset>
+                <input type="checkbox" id="agree" name="agree" required />
+                <label for="agree">Click here to agree to our term of service</label>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Cancel</button>
+        </section>
+        <!-- ส่วนนี้มีการฝัง Google Maps -->
+        <section>
+            <h2>Where Are We</h2>
+            <p>169 Long-Had Bangsaen Road, Saen Suk Sub-district, Mueang Chonburi District, Chonburi 20130</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.0320883554887!2d100.92300467508201!3d13.285935387059135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102b4e7c351968b%3A0xf03d84bc0dd30c0!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4Lia4Li54Lij4Lie4Liy!5e0!3m2!1sth!2sth!4v1764993642394!5m2!1sth!2sth"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <!-- ส่วน footer มี copyright notice -->
+    <footer style="text-align:center; padding:10px;">
+        <p>&copy; 2025 NoBugs. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
