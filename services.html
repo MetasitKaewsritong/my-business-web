@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- ส่วน head แสดงผลภาษา ทำให้เว็บไซต์ responsive และแสดงชื่อบนแท็บ browser -->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NoBugs</title>
+    <title>Our Services - NoBugs</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <!-- ส่วน header มีโลโก้ ชื่อบริษัท และลิงก์นำทาง -->
     <header id="header">
-        <img src="Pictures/NoBugs.jpg" alt="NoBugs" style="width:100px; height:auto;">
+        <img src="Pictures/NoBugs.jpg" alt="NoBugs" class="logo">
         <h1>NoBugs Co., Ltd.</h1>
         <nav>
             <ul>
@@ -25,15 +23,15 @@
     </header>
 
     <main>
-        <!-- ส่วนนี้มีข้อความทั่วไป -->
         <section>
-            <h2>Our Services at NoBugs</h2>
+            <h2>Our Services</h2>
             <p>
                 NoBugs offers a comprehensive range of pest management services designed to meet the specific
                 needs of residential and commercial clients. We provide everything from immediate infestation
                 removal to long-term prevention.
             </p>
         </section>
+
         <section class="card">
             <h3>Residential Pest Control</h3>
             <p>We protect your home and family from unwanted intruders, ensuring a safe and comfortable living space.
@@ -41,16 +39,18 @@
             <ul>
                 <li><strong>General Pest Management:</strong> Year-round plans targeting ants, spiders, silverfish,
                     earwigs, and other common pests.</li>
-                <li><strong>Termite Inspection & Treatment:</strong> Advanced detection and tailored treatments,
+                <li><strong>Termite Inspection &amp; Treatment:</strong> Advanced detection and tailored treatments,
                     including baiting systems and liquid barriers.</li>
-                <li><strong>Rodent Exclusion & Removal:</strong> Humane traps, removal, sealing entry points, and
+                <li><strong>Rodent Exclusion &amp; Removal:</strong> Humane traps, removal, sealing entry points, and
                     sanitation guidance.</li>
-                <li><strong>Wasp & Bee Nest Removal:</strong> Safe removal of stinging insect nests from eaves, walls,
+                <li><strong>Wasp &amp; Bee Nest Removal:</strong> Safe removal of stinging insect nests from eaves,
+                    walls,
                     and outdoor spaces.</li>
                 <li><strong>Bed Bug Elimination:</strong> Heat and chemical treatments to eradicate all life stages of
                     bed bugs.</li>
             </ul>
         </section>
+
         <section class="card">
             <h3>Commercial Pest Control</h3>
             <p>Customized solutions that help businesses comply with health regulations and protect their reputation and
@@ -60,14 +60,16 @@
                     for restaurants, hospitals, schools, and offices.</li>
                 <li><strong>Food Service Pest Control:</strong> Specialized treatment for kitchens and dining areas,
                     with required documentation for inspections.</li>
-                <li><strong>Industrial & Warehouse Management:</strong> Large-scale pest defense and stored-product pest
+                <li><strong>Industrial &amp; Warehouse Management:</strong> Large-scale pest defense and stored-product
+                    pest
                     control for industrial locations.</li>
                 <li><strong>Fumigation Services:</strong> For severe infestations where standard treatments are
                     insufficient.</li>
             </ul>
         </section>
+
         <section class="card">
-            <h3>Specialty & Emergency Services</h3>
+            <h3>Specialty &amp; Emergency Services</h3>
             <p>Advanced solutions for urgent or unique pest challenges.</p>
             <ul>
                 <li><strong>Wildlife Exclusion:</strong> Humane trapping, relocation, and sealing access points for
@@ -80,98 +82,90 @@
                     and property managers.</li>
             </ul>
         </section>
-        <!-- ส่วนนี้มีตาราง -->
+
         <section>
-            <table style="border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th style="border: 1px solid black;">Service Category</th>
-                    <th style="border: 1px solid black;">Typical Customer</th>
-                    <th style="border: 1px solid black;">Frequency</th>
-                    <th style="border: 1px solid black;">Estimated Cost Range</th>
-                    <th style="border: 1px solid black;">Primary Focus</th>
-                    <th style="border: 1px solid black;">Key Examples</th>
-                </tr>
-                <tr>
-                    <td colspan="6" style="border: 1px solid black; background-color: #f0f0f0; text-align: center;">—
-                        Residential Plans —</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">Residential Routine Plan</td>
-                    <td style="border: 1px solid black;">Homeowners, Renters</td>
-                    <td style="border: 1px solid black;">Quarterly or Monthly</td>
-                    <td style="border: 1px solid black;">$50 - $250 per visit</td>
-                    <td style="border: 1px solid black;">Prevention & General Control. Maintaining a pest-free home
-                        environment year-round.</td>
-                    <td style="border: 1px solid black;">Ants, Spiders, Cockroaches, Silverfish.</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">Residential One-Time</td>
-                    <td style="border: 1px solid black;">Homeowners, Real Estate</td>
-                    <td style="border: 1px solid black;">Single Visit</td>
-                    <td style="border: 1px solid black;">$200 - $600+ per job</td>
-                    <td style="border: 1px solid black;">Targeted Removal. Addressing a specific, localized, or seasonal
-                        pest issue.</td>
-                    <td style="border: 1px solid black;">Wasp nest removal, single rodent in attic, seasonal perimeter
-                        spray.</td>
-                </tr>
-                <tr>
-                    <td colspan="6" style="border: 1px solid black; background-color: #f0f0f0; text-align: center;">—
-                        Commercial Plans —</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">Commercial Routine Plan</td>
-                    <td style="border: 1px solid black;">Offices, Retail, Small Restaurants</td>
-                    <td style="border: 1px solid black;">Monthly or Bi-Weekly</td>
-                    <td style="border: 1px solid black;">$100 - $800+ per visit</td>
-                    <td style="border: 1px solid black;">IPM & Compliance. Proactive management, regulatory compliance,
-                        and brand protection.</td>
-                    <td style="border: 1px solid black;">Rodents, Flies, Cockroaches in kitchens, general office pests.
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">High-Compliance Commercial</td>
-                    <td style="border: 1px solid black;">Hospitals, Food Processing, Warehouses</td>
-                    <td style="border: 1px solid black;">Weekly or Bi-Weekly</td>
-                    <td style="border: 1px solid black;">$300 - $1,500+ per visit</td>
-                    <td style="border: 1px solid black;">Audit Preparedness. Intensive monitoring, reporting, and strict
-                        health code adherence.</td>
-                    <td style="border: 1px solid black;">High-risk pest vectors, large facilities, stored-product pests.
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="6" style="border: 1px solid black; background-color: #f0f0f0; text-align: center;">—
-                        Specialty Services —</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">Specialty Elimination</td>
-                    <td style="border: 1px solid black;">All Property Owners</td>
-                    <td style="border: 1px solid black;">Per Job (Multiple Visits)</td>
-                    <td style="border: 1px solid black;">$750 - $4,500+ per job</td>
-                    <td style="border: 1px solid black;">Eradication & Structural Protection. Intensive, targeted
-                        treatment for difficult pests.</td>
-                    <td style="border: 1px solid black;">Termite baiting/liquid barrier, Bed Bug heat treatment,
-                        Wildlife exclusion.</td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black;">Structural Fumigation</td>
-                    <td style="border: 1px solid black;">Highly Infested Properties</td>
-                    <td style="border: 1px solid black;">Per Job (Single, Intensive)</td>
-                    <td style="border: 1px solid black;">$2,500 - $10,000+ per job</td>
-                    <td style="border: 1px solid black;">Complete Reset. Whole-structure treatment for deep, widespread
-                        infestations.</td>
-                    <td style="border: 1px solid black;">Whole-house drywood termite or severe wood-boring beetle
-                        infestations.</td>
-                </tr>
+            <h2>Service Plans &amp; Pricing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service Category</th>
+                        <th>Typical Customer</th>
+                        <th>Frequency</th>
+                        <th>Estimated Cost Range</th>
+                        <th>Primary Focus</th>
+                        <th>Key Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">— Residential Plans —</td>
+                    </tr>
+                    <tr>
+                        <td>Residential Routine Plan</td>
+                        <td>Homeowners, Renters</td>
+                        <td>Quarterly or Monthly</td>
+                        <td>$50 - $250 per visit</td>
+                        <td>Prevention &amp; General Control. Maintaining a pest-free home environment year-round.</td>
+                        <td>Ants, Spiders, Cockroaches, Silverfish</td>
+                    </tr>
+                    <tr>
+                        <td>Residential One-Time</td>
+                        <td>Homeowners, Real Estate</td>
+                        <td>Single Visit</td>
+                        <td>$200 - $600+ per job</td>
+                        <td>Targeted Removal. Addressing a specific, localized, or seasonal pest issue.</td>
+                        <td>Wasp nest removal, single rodent in attic, seasonal perimeter spray</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">— Commercial Plans —</td>
+                    </tr>
+                    <tr>
+                        <td>Commercial Routine Plan</td>
+                        <td>Offices, Retail, Small Restaurants</td>
+                        <td>Monthly or Bi-Weekly</td>
+                        <td>$100 - $800+ per visit</td>
+                        <td>IPM &amp; Compliance. Proactive management, regulatory compliance, and brand protection.
+                        </td>
+                        <td>Rodents, Flies, Cockroaches in kitchens, general office pests</td>
+                    </tr>
+                    <tr>
+                        <td>High-Compliance Commercial</td>
+                        <td>Hospitals, Food Processing, Warehouses</td>
+                        <td>Weekly or Bi-Weekly</td>
+                        <td>$300 - $1,500+ per visit</td>
+                        <td>Audit Preparedness. Intensive monitoring, reporting, and strict health code adherence.</td>
+                        <td>High-risk pest vectors, large facilities, stored-product pests</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">— Specialty Services —</td>
+                    </tr>
+                    <tr>
+                        <td>Specialty Elimination</td>
+                        <td>All Property Owners</td>
+                        <td>Per Job (Multiple Visits)</td>
+                        <td>$750 - $4,500+ per job</td>
+                        <td>Eradication &amp; Structural Protection. Intensive, targeted treatment for difficult pests.
+                        </td>
+                        <td>Termite baiting/liquid barrier, Bed Bug heat treatment, Wildlife exclusion</td>
+                    </tr>
+                    <tr>
+                        <td>Structural Fumigation</td>
+                        <td>Highly Infested Properties</td>
+                        <td>Per Job (Single, Intensive)</td>
+                        <td>$2,500 - $10,000+ per job</td>
+                        <td>Complete Reset. Whole-structure treatment for deep, widespread infestations.</td>
+                        <td>Whole-house drywood termite or severe wood-boring beetle infestations</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </main>
 
-    <!-- ส่วน footer มี copyright notice -->
     <footer id="footer">
-        <p>&copy; 2025 NoBugs. All rights reserved.</p>
+        <p>&copy; 2025 NoBugs Co., Ltd. All rights reserved.</p>
     </footer>
 
-    <a href="#header" class="back-to-top">Back to Top</a>
+    <a href="#" class="back-to-top">Back to Top</a>
     <button class="chat-widget">💬</button>
 </body>
 
